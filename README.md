@@ -9,7 +9,7 @@ Send a text message with your zip code and get a recommended restaurant using Tw
 
 ## Sign up with Yelp
 
-- Create an app to obtain an [API Key](https://www.yelp.com/developers)
+Create an app to obtain an [API Key](https://www.yelp.com/developers)
 
 ## Get Started with Twilio
 
@@ -29,9 +29,9 @@ functions / WhereToEat.js is the code for this serverless function
 
 After creating your serverless function go to Settings > Environment Variables
 
-1. Add YELP_API_KEY : Value is your Yelp API key
+1. Add Key YELP_API_KEY : Value is your Yelp API key
 
-2. Add MY_PHONE_NUMBER : Value is your Twilio Phone Number
+2. Add Key MY_PHONE_NUMBER : Value is your Twilio Phone Number
 
 ## Connect Serverless Function to Phone Number
 
