@@ -17,14 +17,13 @@ Send a text message with your zip code and get a recommended restaurant using Tw
 
 2. After signing up, buy a phone number in your console, go to Phone Numbers > Buy a Number
 
-### Serverless Functions
+### Create Serverless Function
 
-[Getting started with serverless](https://www.twilio.com/docs/runtime/functions#getting-started-with-serverless-and-twilio-functions) </br>
 In your console go to Functions > Create Service > Choose a Name > Add + </br>
 
-functions / chosen.js is the serverless function code
+functions / WhereToEat.js is the code for this serverless function
 
-> You can also Deploy your local project with the [Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit/deploying)
+> You can also deploy your local project with the [Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit/deploying)
 
 ## Environment Variables
 
@@ -36,8 +35,8 @@ After creating your serverless function go to Settings > Environment Variables
 
 ## Connect Serverless Function to Phone Number
 
-In your console go to Phone Numbers > Click Your Phone Number
+1. In your console go to Phone Numbers > Click Your Phone Number
 
-Under Messaging, A MESSAGE COMES IN, Select Function, Your Service Name, Environment and Function path & Save
+2. Under Messaging, A MESSAGE COMES IN, Select Function, Your Service Name, Environment and Function path & Save
 
 ## Text your zip code or city to your phone number and get a recommendation!
