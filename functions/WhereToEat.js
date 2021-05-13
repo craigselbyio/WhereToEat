@@ -15,10 +15,10 @@ exports.handler = function (context, event, callback) {
         // Generate a random index from the businesses array
         let randomBusinessesIdx = Math.floor(Math.random() * businesses.length);
 
-        // Choose a random Business
+        // Choose a random business from businesses
         let chosenBusiness = response.data.businesses[randomBusinessesIdx];
 
-        // Return Business Name & Yelp URL
+        // Return business name & Yelp URL
         return callback(null, `${chosenBusiness.name} - ${chosenBusiness.url}`);
       }
     })
