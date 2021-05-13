@@ -39,4 +39,4 @@ After creating your serverless function go to Settings > Environment Variables
 
 2. Under Messaging, A MESSAGE COMES IN, Select Function, Your Service Name, Environment and Function path & Save
 
-## Text your zip code or city to your phone number and get a recommendation!
+## Text your zip code or city to your Twilio phone number and get a recommendation!
