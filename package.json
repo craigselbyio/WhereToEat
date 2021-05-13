@@ -1,0 +1,22 @@
+{
+  "name": "wheretoeat",
+  "version": "1.0.0",
+  "description": "Where to eat using Twilio and Yelp",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/craigselbyio/WhereToEat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/craigselbyio/WhereToEat/issues"
+  },
+  "homepage": "https://github.com/craigselbyio/WhereToEat#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
