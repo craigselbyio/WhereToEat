@@ -1,7 +1,8 @@
 # Where To Eat?
 
-Nothing is Impossible... Expect deciding where to eat!
-Send a text message with your zip code and get a recommended restaurant using Twilio and Yelp!
+### Nothing is Impossible... Except deciding where to eat! <br>
+
+Text your zip code and get a recommended restaurant using Twilio and Yelp!
 
 <div align="center">
 <img src="assets/wheretoeat.gif" alt="Where To Eat Demo">
@@ -19,15 +20,25 @@ Create an app to obtain an [API Key](https://www.yelp.com/developers)
 
 ### Create Serverless Function
 
-In your console go to Functions > Create Service > Choose a Name > Add + </br>
+Twilio Functions provides an awesome serverless environment, enabling developers to quickly and easily create event-driven Twilio applications, without having to worry about maintaining or scaling the infrastructure.
 
-functions / WhereToEat.js is the code for this serverless function
+1. In your console go to Functions > Create Service > Name your Service > Add + > Add Function > Name your Function <br>
+
+2. Copy the code in functions / WhereToEat.js for this serverless function
 
 > You can also deploy your local project with the [Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit/deploying)
 
+## Add axios Dependency
+
+I'm using axios to make the HTTP request to Yelp
+
+1. In the functions editor, Go to Settings > Dependencies
+
+2. Under "Import npm modules into your application", Enter the name axios & version 0.21.1 > Add
+
 ## Environment Variables
 
-After creating your serverless function go to Settings > Environment Variables
+After creating your serverless function, in the functions editor, Go to Settings > Environment Variables
 
 1. Add Key YELP_API_KEY : Value is your Yelp API key
 
