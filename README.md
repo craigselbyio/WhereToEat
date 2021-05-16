@@ -28,7 +28,7 @@ Twilio Functions provides an awesome serverless environment, enabling developers
 
 > You can also deploy your local project with the [Serverless Toolkit](https://www.twilio.com/docs/labs/serverless-toolkit/deploying)
 
-## Add axios Dependency
+### Add axios Dependency
 
 I'm using axios to make the HTTP request to Yelp
 
@@ -36,7 +36,7 @@ I'm using axios to make the HTTP request to Yelp
 
 2. Under "Import npm modules into your application", Enter the name axios & version 0.21.1 > Add
 
-## Environment Variables
+### Environment Variables
 
 After creating your serverless function, in the functions editor, Go to Settings > Environment Variables
 
@@ -44,7 +44,7 @@ After creating your serverless function, in the functions editor, Go to Settings
 
 2. Add Key MY_PHONE_NUMBER : Value is your Twilio Phone Number
 
-## Connect Serverless Function to Phone Number
+### Connect Serverless Function to Phone Number
 
 1. In your console go to Phone Numbers > Click Your Phone Number
 
